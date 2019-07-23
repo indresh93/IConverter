@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "632982104863",
+    "firebase_url": "https://my-application-8819b.firebaseio.com",
+    "project_id": "my-application-8819b",
+    "storage_bucket": "my-application-8819b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632982104863:android:51da50dcba0f0603",
+        "android_client_info": {
+          "package_name": "mvp.whatrocks.com.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632982104863-d92jap1jk3764ptupqifi8r31ir74rpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkyMWM-Ea3TGMRmDdbzgPilf_MF14xf2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632982104863-d92jap1jk3764ptupqifi8r31ir74rpg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

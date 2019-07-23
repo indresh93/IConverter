@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+
+    android:background="#303030">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:text="ENCODE-DECODE"
+                android:layout_marginTop="3dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:background="#303030"/>
+            <Button
+                android:id="@+id/BinaryEncode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Binary Encode"
+                android:textColor="#ffffff"
+                android:layout_marginTop="16dp"
+                android:padding="26dp"
+                android:background="@drawable/border"/>
+
+
+            <Button
+                android:id="@+id/ASCIIEncode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ASCII Encode"
+                android:textColor="#ffffff"
+                android:layout_marginTop="16dp"
+                android:padding="26dp"
+                android:background="@drawable/border"/>
+            <Button
+                android:id="@+id/ASCIIDecode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ASCII Decode"
+                android:textColor="#ffffff"
+                android:layout_marginTop="16dp"
+                android:padding="26dp"
+
+                android:background="@drawable/border"/>
+
+            <Button
+                android:id="@+id/HexaEncode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hexa Encode"
+                android:textColor="#ffffff"
+                android:layout_marginTop="16dp"
+                android:padding="26dp"
+                android:background="@drawable/border"/>
+
+            <Button
+                android:id="@+id/HexaDecode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hexa Decode"
+                android:textColor="#ffffff"
+                android:layout_marginTop="16dp"
+                android:padding="26dp"
+                android:background="@drawable/border"/>
+
+
+
+            <Button
+                android:id="@+id/Sha1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reverse"
+                android:layout_marginTop="16dp"
+                android:padding="26dp"
+
+                android:textColor="#ffffff"
+                android:background="@drawable/border"
+
+
+                />
+
+            <Button
+                android:id="@+id/SHA256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uppercase"
+
+                android:textColor="#ffffff"
+                android:layout_marginTop="16dp"
+                android:padding="26dp"
+                android:background="@drawable/border"
+                />
+            <Button
+                android:id="@+id/SHA512"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lowercase"
+                android:textColor="#ffffff"
+                android:layout_marginTop="16dp"
+                android:padding="26dp"
+                android:background="@drawable/border"/>
+
+
+
+
+        </LinearLayout>>
+
+    </ScrollView>
+</RelativeLayout>

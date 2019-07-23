@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    tools:context=".Main9Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <EditText
+                android:id="@+id/et_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:textColor="#fff"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:padding="36dp"
+                android:layout_gravity=""
+                android:inputType="text"
+
+                android:background="@drawable/border"
+                android:text="" />
+            <Button
+                android:id="@+id/btn_showdata"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="Convert"
+                android:textColor="#fff"
+                android:layout_marginTop="30dp"
+                android:padding="26dp"
+                android:background="#0de3e5"/>
+            <TextView
+                android:id="@+id/tv_data"
+                android:layout_width="match_parent"
+                android:layout_marginTop="35dp"
+                android:layout_height="150dp"
+                android:layout_gravity=""
+
+                android:text=""
+                android:background="@drawable/border"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>>
+    </ScrollView>>
+
+</RelativeLayout>
